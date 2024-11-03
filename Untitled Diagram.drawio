@@ -1,9 +1,99 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="Page-1" id="F45IOsPn8xBF8X8FNT0A">
-    <mxGraphModel>
+    <mxGraphModel dx="1306" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_si-LF8a5blurSZMn4Ay-1" value="获取数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="70" width="100" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="_si-LF8a5blurSZMn4Ay-2" value="预训练权重" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="151" width="100" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="_si-LF8a5blurSZMn4Ay-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_si-LF8a5blurSZMn4Ay-4" target="_si-LF8a5blurSZMn4Ay-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_si-LF8a5blurSZMn4Ay-4" value="YOLO v9训练" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="224" width="100" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="_si-LF8a5blurSZMn4Ay-5" value="bot sort 追踪" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="366" width="100" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="_si-LF8a5blurSZMn4Ay-6" value="设定目标框和id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="298" width="100" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="_si-LF8a5blurSZMn4Ay-7" value="划分围栏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="449" width="100" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="_si-LF8a5blurSZMn4Ay-8" value="交叉检测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="524" width="100" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="_si-LF8a5blurSZMn4Ay-9" value="符合阈值" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="609" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_si-LF8a5blurSZMn4Ay-10" value="目标记数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="719" width="100" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="_si-LF8a5blurSZMn4Ay-11" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;curved=0;" edge="1" parent="1" source="_si-LF8a5blurSZMn4Ay-9" target="_si-LF8a5blurSZMn4Ay-1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="588" y="632" as="sourcePoint" />
+            <mxPoint x="748" y="632" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="643" y="649" />
+              <mxPoint x="643" y="93" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_si-LF8a5blurSZMn4Ay-12" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_si-LF8a5blurSZMn4Ay-11">
+          <mxGeometry x="-0.9125" y="7" relative="1" as="geometry">
+            <mxPoint x="-36" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_si-LF8a5blurSZMn4Ay-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_si-LF8a5blurSZMn4Ay-1" target="_si-LF8a5blurSZMn4Ay-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="198" y="407" as="sourcePoint" />
+            <mxPoint x="248" y="357" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_si-LF8a5blurSZMn4Ay-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_si-LF8a5blurSZMn4Ay-2" target="_si-LF8a5blurSZMn4Ay-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="202" y="370" as="sourcePoint" />
+            <mxPoint x="252" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_si-LF8a5blurSZMn4Ay-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_si-LF8a5blurSZMn4Ay-6" target="_si-LF8a5blurSZMn4Ay-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="518" y="281" as="sourcePoint" />
+            <mxPoint x="341" y="407" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_si-LF8a5blurSZMn4Ay-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_si-LF8a5blurSZMn4Ay-5" target="_si-LF8a5blurSZMn4Ay-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="196" y="479" as="sourcePoint" />
+            <mxPoint x="246" y="429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_si-LF8a5blurSZMn4Ay-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_si-LF8a5blurSZMn4Ay-7" target="_si-LF8a5blurSZMn4Ay-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="206" y="489" as="sourcePoint" />
+            <mxPoint x="256" y="439" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_si-LF8a5blurSZMn4Ay-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_si-LF8a5blurSZMn4Ay-8" target="_si-LF8a5blurSZMn4Ay-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="216" y="499" as="sourcePoint" />
+            <mxPoint x="266" y="449" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_si-LF8a5blurSZMn4Ay-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_si-LF8a5blurSZMn4Ay-9" target="_si-LF8a5blurSZMn4Ay-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="226" y="509" as="sourcePoint" />
+            <mxPoint x="276" y="459" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_si-LF8a5blurSZMn4Ay-20" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="481.5" y="680" width="37" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
